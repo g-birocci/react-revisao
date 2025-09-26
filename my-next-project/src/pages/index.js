@@ -5,6 +5,8 @@ import CompomentesComMuitosProps from "@/componentes/ComponentesComMuitosPorps";
 import ComponenteComCondicional from "@/componentes/ComponentesComCondicional";
 import ComponenteComMap from "@/componentes/ComponentesComMap";
 import ComponenteComEventos from "@/componentes/ComponentesEventos";
+import ComponenteComState from "@/componentes/ComponenteComState";
+import ComponenteComUseEffect from "@/componentes/ComponenteUserEffect";
 
 export default function Home() {
   return (
@@ -24,6 +26,8 @@ export default function Home() {
       <ComponenteComCondicional/>
       <ComponenteComMap/>
       <ComponenteComEventos/>
+      <ComponenteComState/>
+      <ComponenteComUseEffect/>
       </div>
   );
 }
